@@ -74,30 +74,32 @@ nav.navbar ul.navbar-nav li a.nav-link {
     padding-left: 24px;
     transition: all 0.5s ease;
 }
-nav.navbar ul.navbar-nav li a.nav-link:hover,
-nav.navbar ul.navbar-nav li a.nav-link.active {
-    color: #0575e6;
-    background-color: #fff;
+nav.navbar .navbar-nav li a.nav-link:hover,
+nav.navbar .navbar-nav li a.nav-link.active {
+    color: #0575e6 !important;
+    background-color: #fff !important;
 }
-nav.navbar.noTransparrent{
+nav.navbar.noTransparent{
     background-color: #fff !important;
     border-bottom: 1px solid #eee !important;
 }
 
-nav.navbar.noTransparrent ul.navbar-nav li a.nav-link {
+nav.navbar.noTransparent .navbar-nav li a.nav-link {
     color: #0575e6 !important;
 
 }
-nav.navbar.noTransparrent ul.navbar-nav li a.nav-link:hover,
-nav.navbar.noTransparrent ul.navbar-nav li a.nav-link.active{
-    background-color: #0575e6 !important;
+nav.navbar.noTransparent .navbar-nav li a.nav-link:hover,
+nav.navbar.noTransparent .navbar-nav li a.nav-link.active
+
+{
+    background-color:#0575e6 !important;
     color: #fff !important;
 }
 
-nav.navbar.noTransparrent button.navbar-toggler {
+nav.navbar.noTransparent button.navbar-toggler {
     margin: 30px auto;
 }
-nav.navbar.noTransparrent button.navbar-toggler span {
+nav.navbar.noTransparent button.navbar-toggler span {
     color: #0575e6;
 }
 
@@ -110,7 +112,7 @@ nav.navbar.noTransparrent button.navbar-toggler span {
         width: 100%;
     }
 
-    nav.navbar.noTransparrent button.navbar-toggler {
+    nav.navbar.noTransparent button.navbar-toggler {
         margin: 15px auto;
     }
 }
